@@ -39,12 +39,17 @@ for (let number of array2){
 
 // N4
 
-let array3= [1, 2, 3, 4, 5];
-
+let array3 = [1, 2, 3, 4, 5];
+let sum = 0;
+for (let i = 0; i < array3.length; i++) {
+    sum += array3[i];
+    }
+    console.log(sum);
 
 // N5
 
 let array4= [1, 2, 3, 4, 5];
+
 
 // N6
 
@@ -126,3 +131,5 @@ for (let element of array7){
 }
 
 // N12
+
+let array8 = [ [2, -3, 5, 11], [1, -35, 11], [12, -36, -24] ];
